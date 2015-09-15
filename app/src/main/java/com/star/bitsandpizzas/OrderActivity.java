@@ -9,6 +9,8 @@ public class OrderActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
+
+        getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }
